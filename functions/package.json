@@ -1,6 +1,6 @@
 {
-  "name": "functions",
-  "description": "Cloud Functions for Firebase",
+  "name": "blinqueen",
+  "description": "Smart home project to make a LED blink using Google Home voice commands.",
   "scripts": {
     "serve": "firebase emulators:start --only functions",
     "shell": "firebase functions:shell",
@@ -12,8 +12,11 @@
     "node": "8"
   },
   "dependencies": {
+    "actions-on-google": "^2.12.0",
+    "cors": "^2.8.5",
     "firebase-admin": "^8.10.0",
-    "firebase-functions": "^3.6.0"
+    "firebase-functions": "^3.6.1",
+    "googleapis": "^43.0.0"
   },
   "devDependencies": {
     "firebase-functions-test": "^0.2.0"
