@@ -1,0 +1,52 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+}
+.mdl-grid {
+  max-width: 1024px;
+  margin: auto;
+}
+.mdl-card {
+  min-height: 0;
+  padding-bottom: 5px;
+}
+.mdl-layout__header-row {
+  padding: 0;
+}
+#demo-signed-out-card,
+#demo-signed-in-card {
+  display: none;
+}
+#demo-url,
+#demo-response,
+#demo-url-cookie,
+#demo-response-cookie {
+  font-weight: bold;
+}
+#demo-signed-in-card {
+  width: 700px;
+}
+
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 480px;
+}
+
+h3 {
+  font-size: 25pt;
+}
+
+#user-welcome {
+  text-align: right;
+  display: inline-block;
+  width: 100%;
+  font-size: 16pt;
+  margin-left: -20px;
+}
+
+h4#light-id {
+  font-size: 10pt;
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-style: italic;
+}
